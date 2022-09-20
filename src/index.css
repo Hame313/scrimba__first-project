@@ -1,13 +1,93 @@
 body {
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+nav{
+  display: flex;
+  justify-content: space-between;
+  background: #21222A;
+  align-items: center;
+  padding: 20px;
+}
+.nav{
+  display:flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  color: #61DAFB;
+  height: 10vh;
+}
+.nav__heading{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #DEEBF8;
+}
+.list{
+  background: #282D35;
+  padding: 2em 2em 2em 4em;
+  height: 79vh;
+  position: relative;
+}
+.facts__heading{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin: 1.5em 0em ;
+}
+.facts__ul{
+  list-style: none;
+}
+.facts__li::before{
+  content: '\2022';
+  color:#61DAFB;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  margin-top: 1em;
+  margin-left: -3em;
+}
+.facts__li{   
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin: 15px;
+}
+.list__sideLogo{
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+footer{
+  background: #282D35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #DEEBF8;
+  padding-bottom: 20px;
 }
